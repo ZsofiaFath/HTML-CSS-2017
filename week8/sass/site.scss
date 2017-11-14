@@ -1,0 +1,27 @@
+@import '../node_modules/reset-css/_reset';
+
+$bgcolor: #c0c0c0;
+$primary-color: #663399;
+$primary-dark: darken($primary-color, 20%);
+$primary-light: lighten($primary-color, 10%);
+
+@import "partials/header";
+@import "partials/nav";
+
+
+body {
+  background-color: $bgcolor;
+}
+h1 {
+  color: $primary-color;
+}
+h2 {
+  color: $primary-color;
+  font-size: 2em;
+  margin: .75em 0;
+}
+p {
+  border: 1px solid $primary-color;
+  background-color: $primary-light;
+  padding: 1em;
+}
