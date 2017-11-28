@@ -1,0 +1,15 @@
+.grid {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: gray;
+}
+
+.grid-item:nth-child(even) {
+  background: silver;
+}
